@@ -3,7 +3,7 @@ package leetcode;
 /**
  * Created by xieli on 2021/2/22.
  */
-public class _912排序数组 {
+public class _912_排序数组 {
 
     /**
      * 选择排序：
