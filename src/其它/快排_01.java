@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by xieli on 2021/3/5.
  */
-public class 快排 {
+public class 快排_01 {
 
     // 1. 基本快速排序
 
