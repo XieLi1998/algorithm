@@ -1,9 +1,9 @@
-package 剑指offer;
+package leetcode;
 
 /**
  * Created by xieli on 2021/3/12.
  */
-public class 最长公共子序列 {
+public class _1143_最长公共子序列 {
 
     /**
      * https://leetcode-cn.com/problems/longest-common-subsequence/solution/dong-tai-gui-hua-tu-wen-jie-xi-by-yijiaoqian/
