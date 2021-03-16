@@ -20,6 +20,12 @@ public class 重建二叉树 {
     int[] preOrder;
     HashMap<Integer, Integer> dic = new HashMap<>();
 
+    /**
+     * https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/solution/mian-shi-ti-07-zhong-jian-er-cha-shu-di-gui-fa-qin/
+     * @param pre
+     * @param in
+     * @return
+     */
     public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
         this.preOrder = pre;
         for (int i = 0; i < in.length; i++) {
