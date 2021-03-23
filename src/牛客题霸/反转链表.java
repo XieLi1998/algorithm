@@ -5,7 +5,12 @@ package 牛客题霸;
  */
 public class 反转链表 {
 
-    // 双指针迭代, 空间复杂度O(1)
+    /**
+     * https://leetcode-cn.com/problems/reverse-linked-list/solution/dong-hua-yan-shi-206-fan-zhuan-lian-biao-by-user74/
+     * @param head
+     * @return
+     */
+    // 双指针迭代, 空间复杂度 O(1)
     public ListNode ReverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
