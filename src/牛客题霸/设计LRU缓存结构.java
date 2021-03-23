@@ -35,7 +35,7 @@ public class 设计LRU缓存结构 {
             }
         }
 
-        // 双链表
+        // 双向链表
         class DoubleList {
             private Node head, tail;
             private int size;
