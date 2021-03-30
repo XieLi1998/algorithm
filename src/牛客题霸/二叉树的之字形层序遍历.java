@@ -1,10 +1,7 @@
 package 牛客题霸;
 
-import leetcode._103_二叉树之字形层序遍历;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Queue;
 
 /**
