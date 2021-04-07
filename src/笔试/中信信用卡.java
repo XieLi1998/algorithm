@@ -48,11 +48,11 @@ public class 中信信用卡 {
         return ans.toString();
     }
 
-    public static void main(String[] args) {
-        String string = "HjdakshOIUOU";
-        String res = string.toLowerCase();
-        System.out.println(res);
-    }
+//    public static void main(String[] args) {
+//        String string = "HjdakshOIUOU";
+//        String res = string.toLowerCase();
+//        System.out.println(res);
+//    }
 
     public ArrayList<ArrayList<String>> groupAnagrams(String[] strs) {
         Map<String, ArrayList<String>> map = new HashMap<>();
@@ -83,6 +83,15 @@ public class 中信信用卡 {
 
     public int calculateAdventureMinHp (String adventurePlayer) {
         return 0;
+    }
+
+    public static void main(String[] args) {
+        中信信用卡 ts=new 中信信用卡();
+        ts.recur();
+    }
+
+    private void recur(){
+        recur();
     }
 
 }
